@@ -144,48 +144,47 @@
 
     <div class="checkout_area mb-100">
         <div class="container">
-            <div class="row justify-content-between">
-
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-lg-7">
                     <div class="checkout_details_area clearfix">
                         <h5>Responda para ajudar a melhorar o nosso site</h5>
-                        <form action="#" method="post">
+                        <form action="processar_formulario.php" method="post">
                             <div class="row">
-                                <div class="col-md-6 mb-4">
+                                <!-- <div class="col-md-6 mb-4">
                                     <label for="first_name">Nome:</label>
-                                    <input type="text" class="form-control" id="first_name" value="" required="">
+                                    <input type="text" class="form-control" id="first_name" name="first_name" required="">
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <label for="last_name">E-mail:</label>
-                                    <input type="text" class="form-control" id="last_name" value="" required="">
-                                </div>
+                                    <input type="text" class="form-control" id="last_name" name="last_name" value="" required="">
+                                </div> -->
                                 <div class="col-12 mb-4">
                                     <label for="email_address">Você conseguiu reconhecer o objetivo do site? Se sim, adicione-o.</label>
-                                    <input type="email" class="form-control" id="email_address" value="">
+                                    <input type="text" class="form-control" id="email_address" name="email_address" value="">
                                 </div>
                                 <div class="col-12 mb-4">
                                     <label for="phone_number">Qual nota de 0 a 10 você daria para esse site?</label>
-                                    <input type="number" class="form-control" id="phone_number" min="0" value="">
+                                    <input type="number" class="form-control" id="phone_number" name="phone_number" min="0" value="">
                                 </div>
                                 <div class="col-12 mb-4">
                                     <label for="company">A estrutura do site está organizada de forma confortável?</label>
-                                    <input type="text" class="form-control" id="company" value="">
+                                    <input type="text" class="form-control" id="company" name="company" value="">
                                 </div>
                                 <div class="col-12 mb-4">
-                                    <label for="company">As imagens contidas no site passam alguma mensagem para você, se sim, qual?</label>
-                                    <input type="text" class="form-control" id="address" value="">
+                                    <label for="company">As imagens contidas no site passam alguma mensagem para você? Se sim, qual?</label>
+                                    <input type="text" class="form-control" id="address" name="address" value="">
                                 </div>
                                 <div class="col-md-12 mb-4">
-                                    <label for="city">As fontes que compõem o site foi uma boa escolha quando dispostas em textos grandes?</label>
-                                    <input type="text" class="form-control" id="city" value="">
+                                    <label for="city">As fontes que compõem o site foram uma boa escolha quando dispostas em textos grandes?</label>
+                                    <input type="text" class="form-control" id="city" name="city" value="">
                                 </div>
                                 <div class="col-md-12 mb-4">
                                     <label for="state">As cores presentes no site foram uma boa escolha em relação a sua experiência navegando pelo mesmo?</label>
-                                    <input type="text" class="form-control" id="state" value="">
+                                    <input type="text" class="form-control" id="state" name="state" value="">
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <label for="country">Nível de sastifação:</label>
-                                    <select class="custom-select d-block w-100" id="country">
+                                    <select class="custom-select d-block w-100" id="country" name="country">
                                         <option value="usa">Muito satisfeito</option>
                                         <option value="uk">Satisfeito</option>
                                         <option value="ger">Regular</option>
@@ -195,41 +194,18 @@
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <label for="postcode">Deixo um comentário:</label>
-                                    <input type="text" class="form-control" id="postcode" value="">
+                                    <input type="text" class="form-control" id="postcode" name="postcode" value="">
                                 </div>
 
-                                <button class="btn alazea-btn mr-30">Enviar Feedback</button>
-                                
+                                <!-- Adicione a classe 'mb-4' à div que envolve o botão -->
+<div class="col-md-6 mb-4">
+    <button class="btn alazea-btn mr-30">Enviar Feedback</button>
+</div>
+
                             </div>
                         </form>
                     </div>
                 </div>
-
-                <!-- fotos -->
-                <!-- <div class="col-12 col-md-6 col-lg-5">
-                        <div class="single_product_thumb">
-                            <div id="product_details_slider" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <a class="product-img" href="../img/bg-img/feedback-foto.jpg" title="Product Image">
-                                        <img class="d-block w-100" src="../img/bg-img/feedback-foto.jpg" alt="1">
-                                    </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a class="product-img" href="../img/bg-img/feedback-foto2.jfif title="Product Image">
-                                        <img class="d-block w-100" src="../img/bg-img/feedback-foto2.jfif" alt="1">
-                                    </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a class="product-img" href="../img/bg-img/feedback-foto3.png" title="Product Image">
-                                        <img class="d-block w-100" src="../img/bg-img/feedback-foto3.png" alt="1">
-                                    </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
             </div>
         </div>
     </div>
